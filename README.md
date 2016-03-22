@@ -11,17 +11,17 @@ By default running container generates ten (10) random secure password, each 16-
   
 generate ten (10) random secure passwords 16-chars long:
 
-    docker run --rm kciepluc/pwgen
+    docker run --rm kciepluc/pwgen-docker
   
 generate five (5) secure passwords 24-chars long:
 
-    docker run --rm kciepluc/pwgen 24 5
+    docker run --rm kciepluc/pwgen-docker 24 5
   
 generate single secure password 8-chars long:
 
-    docker run --rm kciepluc/pwgen 8
+    docker run --rm kciepluc/pwgen-docker 8
   
 display program options:
 
-    docker run --rm kciepluc/pwgen --help
+    docker run --rm kciepluc/pwgen-docker --help
 
